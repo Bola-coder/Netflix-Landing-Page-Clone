@@ -331,7 +331,7 @@ font-size: 3.5rem;
 }
 .faq-answer p {
     background-color: #333333;
-    display: none;
+     display: none;
     font-size: 2rem;
 }
 
@@ -404,11 +404,12 @@ footer{
 }
 
 /* Media Queries */
+
+/* For Tablet */
 @media screen and (max-width: 768px) {
     body{
         font-size: 9px;
     }
-
     .nav-bar{
         padding: 1.5rem;
     }
@@ -419,14 +420,32 @@ footer{
         width: 8.2rem;
     }
     .header--content{
-        transform: translate(-50%, -30%);
+        transform: translate(-50%, -40%);
         width: 80%;
     }
     .header__text{
         padding: .5rem;
     }
+    .header__text h1{
+        font-size: 3rem;
+    }
+    .header__text h3{
+        font-size: 1.6rem;
+        padding: 1.3rem;
+    }
     
     .header__input{
+        padding: .8rem;
+        /* text-align: center; */
+    }
+    .header__input input[type=email ]{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    .header__input button{
+        width: 30%;
+        display: block;
+        margin-left: 25%;
         padding: .8rem;
     }
 
@@ -530,6 +549,16 @@ footer{
         width: 80%;
         padding: .8rem;
     }
+    .faq__input input[type=email ]{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    .faq__input button{
+        width: 30%;
+        display: block;
+        margin-left: 25%;
+        padding: .8rem;
+    }
     
     footer{
         padding: 3rem;
@@ -537,4 +566,310 @@ footer{
     .footer-nav{
         width: 85%;
     }
+}
+
+/* For large Mobile devices */
+@media screen and (max-width: 425px){
+    body{
+        font-size: 7px;
+    }
+    .header{
+        width: 100%;
+    }
+    .nav-bar{
+        padding: 1rem;
+    }
+    .nav-bar__logo{
+        padding-left: 0 1.6rem;
+    }
+    .nav-bar__logo img{
+        width: 8rem;
+    }
+
+    .nav-bar__link{
+        padding: 0 1.5rem;
+    }
+    .header--content{
+        transform: translate(-50%, -40%);
+        width: 90%;
+    }
+    .header__text h1{
+        font-size: 2rem;
+    }
+    .header__text h3{
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    .header__text p{
+        font-size: 1.2rem;
+    }
+    .header__input input[type=email ]{
+        width: 80%;
+        padding: .8rem;
+    }
+
+    .header__input button{
+        width: 35%;
+        padding: .7rem;
+        font-size: .9rem;
+    }
+
+    .watch-online-text h2{
+        font-size: 2rem;
+        padding: .5rem;
+    }
+    .watch-online-text p {
+        font-size: 1.2rem;
+    }
+    .watch-online-image img{
+        width: 100%;
+    }
+    .watch-online-video{
+        top: 2rem;
+        right: 0rem;
+    }
+    .watch-online-video video{
+        width: 90%;
+    }
+
+    .download{
+        padding: 1.5rem;
+    }
+    .download-text h2{
+        font-size: 2rem;
+        padding: .5rem;
+    }
+    .download-text p {
+        font-size: 1.2rem;
+    }
+
+    .download-image-one{
+        width: 100%;
+    }
+    .image-two-container{
+        left: 3.5rem;
+        height: 4.5rem;
+        width: 70%;
+    }
+    .download-image-two img{
+        width: 2.3rem;
+    }
+
+    .watch-everywhere-text h2{
+        font-size: 2rem;
+        padding: .5rem;
+    }
+    .watch-everywhere-text p{
+        font-size: 1.2rem;
+    }
+
+    .watch-everywhere-image img{
+        width: 100%;
+    }
+
+    .watch-everywhere-video{
+        right: 0;
+    }
+
+    .watch-everywhere-video{
+        width: 80%;
+    }
+
+    .for-kids{
+        padding: 2rem;
+    }
+    .for-kids-text h2{
+        font-size: 2rem;
+        padding: .5rem;
+    }
+    
+    .for-kids-text p{
+        font-size: 1.2rem;
+    }
+    .for-kids-image img{
+        width: 100%;
+    }
+    .faq-container{
+        padding: 1rem;
+    }
+    .faq-container h2{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .faq-container p {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .faq{
+        width: 95%;
+    }
+    .faq-question button{
+        additive-symbols: .8rem;
+        width: 100%;
+    }
+    .faq-question h3{
+        font-size: 1.2rem;
+    }
+    .faq-question h3::after{
+        right: 2rem;
+    }
+    .faq-answer p {
+        font-size: 1.1rem;
+        text-align: left;
+    }
+    .faq__input{
+        width: 90%;
+    }
+
+    .faq__input input[type=email ]{
+        width: 90%;
+        padding: .8rem;
+        margin-left: 5%;
+    }
+
+    .faq__input button{
+        width: 45%;
+        padding: .7rem;
+        font-size: .9rem;
+    }
+    .footer{
+        padding: 1.5rem;
+    }
+    .footer-nav{
+        width: 90%;
+    }
+    
+}
+/* Medium Mobile devices */
+@media screen and (max-width: 375px){
+    body{
+        font-size: 6px;
+    }
+    .nav-bar__logo{
+        padding-left: 1rem;
+    }
+    .nav-bar__logo img{
+        width: 7rem;
+    }
+    .nav-bar__link{
+        padding: 0 1.2rem;
+    }
+    .nav-bar__link a{
+        font-size: 1rem;
+    }
+    .header__input button{
+        width: 40%;
+        padding: .7rem;
+        font-size: .9rem;
+    }
+    .faq-question h3{
+        font-size: 1rem;
+    }
+    .faq__input button{
+        width: 50%;
+    }
+}
+
+/* Small Mobile devices */
+@media screen and (max-width: 320px){
+
+.nav-bar__logo img{
+    width: 6rem;
+}
+
+.nav-bar__link{
+    padding: 0 .5rem;
+}
+.header--content{
+    width: 95%;
+}
+.header__text h2{
+    font-size: 1.5rem;
+}
+.header__text h3{
+    font-size: 1rem;
+    padding: .8rem;
+}
+.header__text p{
+    font-size: .9rem;
+}
+.header__input button{
+    width: 45%;
+    padding: .7rem;
+    font-size: .8rem;
+    margin-left: 15%;
+}
+.watch-online-text h2{
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+.watch-online-text p {
+    font-size: 1rem;
+}
+.download-text h2{
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+.download-text p {
+    font-size: 1rem;
+}
+.image-two-container{
+    bottom: 1rem;
+    left: 2rem;
+    height: 3.5rem;
+    width: 80%;
+}
+.download-image-two img{
+    width: 2rem;
+}
+.watch-everywhere-text h2{
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+.watch-everywhere-text p{
+    font-size: 1rem;
+}
+.for-kids{
+    padding: 1.5rem;
+}
+.for-kids-text h2{
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+.for-kids-text p{
+    font-size: 1rem;
+}
+.faq-container h2{
+    font-size: 1.3rem;
+    padding: .8rem;
+}
+.faq-container p {
+    font-size: 1rem;
+    padding: .8rem;
+}
+.faq-question h3{
+    font-size: .8rem;
+}
+.faq-answer p {
+    font-size: .8rem;
+    text-align: left;
+}
+footer{
+    padding: .8rem;
+}
+.footer-text{
+    padding: .8rem 0;
+    font-size: .8rem;
+}
+.contact-link{
+    padding: .8rem 0;
+}
+.contact-link a{
+    font-size: .8rem;
+}
+.col-1 .col-2 .col-3 .col-4{
+    flex-basis: 14%;
+}
 }
