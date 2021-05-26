@@ -1,0 +1,36 @@
+Background image for the hero section
+
+<img class="concord-img vlv-creative"
+        src="https://assets.nflxext.com/ffe/siteui/vlv3/11c803d4-06f3-467e-91f7-0560ce15a396/851998f4-0a27-4be5-81d8-4f682f9096db/NG-en-20210517-popsignuptwoweeks-perspective_alpha_website_small.jpg" srcset="https://assets.nflxext.com/ffe/siteui/vlv3/11c803d4-06f3-467e-91f7-0560ce15a396/851998f4-0a27-4be5-81d8-4f682f9096db/NG-en-20210517-popsignuptwoweeks-perspective_alpha_website_small.jpg 1000w, https://assets.nflxext.com/ffe/siteui/vlv3/11c803d4-06f3-467e-91f7-0560ce15a396/851998f4-0a27-4be5-81d8-4f682f9096db/NG-en-20210517-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w, https://assets.nflxext.com/ffe/siteui/vlv3/11c803d4-06f3-467e-91f7-0560ce15a396/851998f4-0a27-4be5-81d8-4f682f9096db/NG-en-20210517-popsignuptwoweeks-perspective_alpha_website_large.jpg 1800w" alt="">
+
+        watch / enjoy on your tv
+        <img alt="" class="our-story-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" data-uia="our-story-card-img">
+
+        Download movie
+
+        <img alt="" class="our-story-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" data-uia="our-story-card-img">
+
+        <img alt="" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png">
+
+        Watch Everywhere
+
+        <img alt="" class="our-story-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" data-uia="our-story-card-img">
+
+        For kids
+
+        <img alt="" class="our-story-card-img" src="https://occ-0-1168-299.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABdFTpLmANuJpYneLq8L5m7CunMCi8e8Nl4y7xaPVWzG3IeoDoq17egTQAthApKg_4sdRWdwuR8KadWu1frjL3JQImpwq.png?r=fcd" data-uia="our-story-card-img">   
+
+        Right Arrow
+        <i class="fas fa-chevron-right"></i>
+
+        Plus
+        <i class="fas fa-plus"></i>
+
+        Times
+        <i class="fas fa-times"></i>
+
+        Download
+        <i class="fas fa-download"></i>
+
+        color one 
+        #e50914;
