@@ -570,6 +570,9 @@ footer{
 
 /* For large Mobile devices */
 @media screen and (max-width: 425px){
+    .header::after{
+        box-shadow: 50px 20px 250px #000000, inset -5px 20px 70px #000000;
+    }
     body{
         font-size: 7px;
     }
@@ -774,7 +777,6 @@ footer{
 
 /* Small Mobile devices */
 @media screen and (max-width: 320px){
-
 .nav-bar__logo img{
     width: 6rem;
 }
