@@ -717,6 +717,7 @@ footer{
     }
     .faq-question h3::after{
         right: 2rem;
+        font-size: 1.2rem;
     }
     .faq-answer p {
         font-size: 1.1rem;
@@ -854,6 +855,7 @@ footer{
 .faq-question h3{
     font-size: .8rem;
 }
+
 .faq-answer p {
     font-size: .8rem;
     text-align: left;
